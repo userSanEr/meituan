@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>美食</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/order.css">
+</head>
+
+<body>
+    <div class="container" style="background: #fff">
+        <div class="header"></div>
+        <div class="container-center">
+            <form action="">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th class="desc">项目</th>
+                            <th class="unit-price" style="text-align: center">单价</th>
+                            <th class="num" style="text-align: center">数量</th>
+                            <th class="total-price">总价</th>
+                        </tr>
+                        <tr>
+                            <td class="shipin">
+                                <a href="javascript:;">大董: 大董2人餐</a>
+                            </td>
+                            <td class="danjia"> ￥<span>499</span> </td>
+                            <td>
+                                <div class="input-number">
+                                    <button class="minus-btn">-</button><input type="text" class="input"
+                                        value="1"><button class="plus-btn">+</button>
+                                </div>
+                            </td>
+                            <td class="zongjia"> <span>¥</span> 499</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="row discount"></div>
+                <div class="row price">
+                    <span class="total-price">应付金额：<span class="yingfu"><i>￥</i>499</span></span>
+                </div>
+                <div class="row mobile-info">
+                    <s>将发送美团券密码至手机号：155****9779</s>
+                    <a href="resgister.html">绑定新手机号</a>
+                </div>
+                <div class="form-submit">
+                    <input type="button" class="btn" value="提交订单">
+                </div>
+            </form>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+<script src="js/cookie.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/order.js"></script>
+
+</html>

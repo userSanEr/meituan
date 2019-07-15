@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    ont-family: "-apple-system",BlinkMacSystemFont,Roboto,"Helvetica Neue","MIcrosoft YaHei",sans-serif!important;
+}
+.wrap{
+    width: 100% ;
+    height: 100%;
+}
+.content_center{
+    width: 1190px;
+    height: 1092px;
+    /* background: red; */
+    margin: auto;
+}
+.content_header{
+    font-size: 12px;
+    color: #222;
+    line-height: 17px;
+    padding: 19px 0;
+}
+.content_nr{
+    font-size: 12px;
+    color: #666;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px 20px 33px;
+    font-size: 26px;
+    line-height: 37px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 5px 14px 0 rgba(0,0,0,.1);
+}
+.content_left{
+    width: 748px;
+    float: left;
+}
+.name span{
+    float: right;
+    color: #00c9b3;
+    font-size: 12px;
+    cursor: pointer;
+}
+.name span i{
+    width: 15px;
+    height: 18px;
+    background: url(../img/detailimg/name.png);
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: 6px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+.xingji{
+    font-size: 14px;
+    height: 14px;
+    margin: 6px 0 17px;
+}
+.xingji_pic{
+    height: 24px;
+    margin-top: 5px;
+    float: left;
+}
+.xingji p{
+    height: 24px;;
+    float: left;
+    line-height: 24px;
+    margin-left: 10px;
+}
+.xingji_pic ul{
+    height: 24px;
+}
+.xingji_pic ul li{
+    width: 17px;
+    height: 17px;
+    background: url(../img/detailimg/xinghuang.png);
+    background-size: 100% 100%;
+    float: left;
+}
+.xingji_pic ul li:nth-of-type(5){
+    background: url(../img/detailimg/xinghui.png);
+    background-size: 100% 100%;
+}
+.address{
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 16px 0 11px;
+}
+.address p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.clear{
+    width: 748px;
+    height: 32px;
+    padding: 20px 0 0;
+}
+.clear_p1{
+   font-size: 12px;
+   float: left;
+   margin-right: 16px;
+   line-height: 17px;
+}
+.clear_p1 img{
+    margin: auto -38px 18px;
+    width: 24px;
+    height: 24px;
+    border-radius: 0;
+}
+.content_right{
+    width: 380px;
+    float: right;
+    height: 274px;
+}
+.img_small{
+    width: 385px;
+}
+.img_small img{
+    width: 92px;
+    height: 50px;
+    float: left;
+    margin-right: 4px;
+    border-radius: 4px;
+}
+.shoping{
+    padding-top: 40px;
+}
+.shoping_title{
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+.shop_left{
+    margin-bottom: 40px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    padding-left: 20px;
+
+    width: 926px;
+    float: left;
+}
+.shop_left h4{
+        font-size: 16px;
+        line-height: 26px;
+        font-family:"-apple-system",BlinkMacSystemFont,Roboto,"Helvetica Neue","MIcrosoft YaHei",sans-serif!important; 
+}
+.shop_one{
+    padding-bottom: 20px;
+    margin-top: 17px;
+    
+    overflow: hidden;
+}
+.shop_one img{
+    float: left;
+}
+.shop_info{
+    width: 788px;
+    margin-left: 120px;
+}
+.shop_info_name{
+    overflow: hidden;
+}
+.shop_info_name span{
+    font-size: 16px;
+    line-height: 22px;
+    cursor: pointer;
+    vertical-align: middle;
+    float: left;
+}
+.icon{
+    vertical-align: middle;
+    font-size: 12px;
+    color: #fff;
+    height: 16px;
+    width: 16px;
+    margin-left: 14px;
+    display: inline-block;
+}
+.shop_info_xiaoliao{
+    font-size: 12px;
+    color: #666;
+    line-height: 17px;
+    margin: 1px 0 22px;
+    cursor: pointer;
+}
+.shop_info_jiage{
+    font-size: 30px;
+    color: #f60;
+    cursor: pointer;
+}
+.shop_info_jiage b{
+    font-weight: 400;
+    font-size: 14px;
+}
+.shop_info_jiage span{
+    color: #999;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.buy{
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    background-color: #f90;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    float: right;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 100px;
+}
+.shop_right{
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 16px 20px 0;
+    float:right;
+}
+.shop_right_title{
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 0 12px;
+    color: #333;
+}
+.name1{
+    width: 188px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #222;
+    margin: 10px 0 4px;
+    white-space:normal;
+}
+.desc{
+    font-size: 12px;
+    line-height: 17px;
+    color: #999;
+}
+.price {
+    font-size: 22px;
+    color: #f60;
+    line-height: 27px;
+}
+.price b {
+    font-weight: 400;
+    font-size: 14px;
+}
+.tg-onload img{
+	width: 160px;
+	height: 120px;
+	display: block;
+	margin: auto;
+}
+.liji-onload{
+	width: 120px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+	margin: auto;
+	background-color: #13D1BE;
+	border-radius: 100px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	transition: background .6s ease;
+}
+.tg-onload p{
+	margin: 10px 0 14px;
+	color: #666;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+}
+.tg-onload{
+	width: 950px;
+	height: 276px;
+	padding: 30px 0;
+	margin-bottom: 40px;
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    float: left;
+}

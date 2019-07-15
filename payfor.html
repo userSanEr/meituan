@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>收银台</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/payfor.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <div id="header"></div>
+    <!-- ------------内容---------- -->
+    <div class="container">
+        <div class="chaoshi">
+            <i class="icon icon-sand"></i>
+            <span class="chaoshi-text">请在 <span class="chaoshi-time">24:00:00</span> 内完成支付, 超时订单会自动取消</span>
+        </div>
+        <div class="xiangmu">
+            <div class="xiangmu-title clear-fix">
+                <span class="xiangmu-left">
+                    <div class="xiangmu-name">项目：大董4人餐</div>
+                </span>
+                <span class="xiangmu-right">
+                    <div class="amount">应付金额<span class="amount-price">2268.00</span></div>
+                </span>
+            </div>
+            <div class="pay-container">
+                <div class="pay-center">
+                    <div class="pay-type">
+                        <ul class="pay-menu">
+                            <li class="payment-tab payment-tab-0">支付宝/微信</li>
+                            <li class="payment-tab payment-tab-1">个人网银支付</li>
+                        </ul>
+                        <ul class="pay-tips">
+                            <li class="yijian"><a href="javascript:;">意见反馈</a></li>
+                            <li>
+                                <span class="pay-dropdown">
+                                    支付帮助
+                                    <span class="pay-tips-arrow"></span>
+                                    <div class="pay-dropdown-menu">
+                                        <div class="pay-collapse">
+                                            <h4>
+                                                <span class="pay-collapse-arrow"></span>
+                                                没有开通网上银行如何购买？
+                                            </h4>
+                                            <p>各银行已有支持无需网银的小额支付产品，可直接选择付款。或者，可选择银联在线支付或快捷支付（只支持信用卡）付款。</p>
+                                        </div>
+                                        <div class="pay-collapse">
+                                            <h4>
+                                                <span class="pay-collapse-arrow"></span>
+                                                没找到我常用的网上银行？
+                                            </h4>
+                                            <p>建议选择银联在线支付付款，支持超过180家银行，包括主流银行和地方银行，例如华夏银行，江苏银行，南京银行等。</p>
+                                        </div>
+                                        <div class="pay-collapse">
+                                            <h4>
+                                                <span class="pay-collapse-arrow"></span>
+                                                什么是地方银行？
+                                            </h4>
+                                            <p>地方银行主要指注册和经营在当地的城市商业银行、农村合作银行、村镇银行等中小金融机构，例如江苏银行，南京银行，华夏银行等。</p>
+                                        </div>
+                                        <div class="pay-collapse">
+                                            <h4>
+                                                <span class="pay-collapse-arrow"></span>
+                                                无法跳转到对应的支付页面支付？
+                                            </h4>
+                                            <p>建议刷新当前页面，如果没恢复正常建议重启或更换到IE浏览器。</p>
+                                        </div>
+                                        <div class="pay-collapse">
+                                            <h4>
+                                                <span class="pay-collapse-arrow"></span>
+                                                网上银行扣款后，订单仍显示"未付款"怎么办？
+                                            </h4>
+                                            <p>可能是由于银行的数据没有即时传输，请您不要担心，稍后刷新页面查看。如较长时间仍显示未付款，可先向银行或支付平台获取支付凭证（扣款订单号/第三方交易号），联系美团客服(10107888)为您解决。</p>
+                                        </div>
+                                        <a class="payment-dropdown-more" href="javascript:;">更多</a>
+                                    </div>
+                                </span>
+                            </li>
+                        </ul>
+                        <div class="pay-list" style="display:block">
+                            <ul class="clear-fix">
+                                <li>
+                                    <input name="thirdpart_pay" type="radio" checked>
+                                    <label class="pay-icon" for=""><img src="img/payforimg/pc_wxqrpay.png" alt=""></label>
+                                </li>
+                                <li>
+                                        <input name="thirdpart_pay" type="radio">
+                                        <label class="pay-icon" for=""><img src="img/payforimg/alipaypcnew.png" alt=""></label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="pay-list">
+                            <div class="pay-bank-tip">支持储蓄卡和信用卡，需要开通网银</div>
+                                <ul class="clear-fix">
+                                    <li>
+                                        <input name="thirdpart_pay" type="radio">
+                                        <label class="pay-icon" for=""><img src="img/payforimg/icbc.png" alt=""></label>
+                                    </li>
+                                    <li>
+                                            <input name="thirdpart_pay" type="radio">
+                                            <label class="pay-icon" for=""><img src="img/payforimg/cmb.png" alt=""></label>
+                                    </li>
+                                    <li>
+                                            <input name="thirdpart_pay" type="radio">
+                                            <label class="pay-icon" for=""><img src="img/payforimg/ccb.png" alt=""></label>
+                                    </li>
+                                    <li>
+                                            <input name="thirdpart_pay" type="radio">
+                                            <label class="pay-icon" for=""><img src="img/payforimg/abc.png" alt=""></label>
+                                    </li>
+                                    <li>
+                                            <input name="thirdpart_pay" type="radio">
+                                            <label class="pay-icon" for=""><img src="img/payforimg/boc.png" alt=""></label>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                    <div class="pay-submit-area clear-fix">
+                        <div class="amount">支付  <span class="amount-price">2268.00</span></div>
+                        <div class="pay-submit"><a class="btn" href="javascript:;">去付款</a></div>
+                        <div class="pay-back"><a href="javascript:;">返回修改订单</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 尾部 -->
+    <div id="footer"></div>
+
+    <!-- ----------提交订单后显示的----------- -->
+    <div class="modal" style="display:none">
+        <div class="modal-mask"></div>
+        <div class="modal-box">
+            <div class="modal-left">
+                <p>
+                    <span>请使用 </span>
+                    <span class="orange">微信 </span>
+                    <i class="icon icon-qrcode"></i>
+                    <span class="orange"> 扫一扫</span>
+                    <br>
+                    扫描二维码支付
+                </p>
+                <div class="modal-qr">
+                    <img class="modal-qrcode" src="img/payforimg/下载.png" alt="">
+                    <div class="modal-info">
+                        <img class="icon-clock" src="img/payforimg/下载 1.png" alt="">
+                        <span>二维码有效时长为2小时, 请尽快支付</span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-right">
+                <i id="close" class="icon icon-close"></i>
+                <img src="img/payforimg/weixin-qrcode..jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/payfor.js"></script>
+<script src="js/moban.js"></script>
+<script src="js/cookie.js"></script>
+</html>
